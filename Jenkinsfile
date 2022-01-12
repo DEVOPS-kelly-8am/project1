@@ -2,13 +2,7 @@ pipeline {
   agent any
   stages {
 
-    stage('checkout') {
-      steps {
-        script {
-          sh 'git clone https://github.com/DEVOPS-kelly-8am/project1.git '
-        }
-      }
-    }
+    
 
     stage('build') {
       steps {
