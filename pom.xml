@@ -27,5 +27,12 @@
 	<build>
 		<finalName>cangkitsolutions</finalName>
 	</build>
+	<distributionManagement>
+           <repository>
+              <id>central</id>
+              <name>ip-172-31-82-47-releases</name>
+              <url>http://52.91.164.157:8081/artifactory/my-maven-libs-release</url>
+           </repository>
+       </distributionManagement>
 </project>
 
